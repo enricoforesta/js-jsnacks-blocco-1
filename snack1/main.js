@@ -1,18 +1,18 @@
-const elementPrimoInput = [prompt("inserisci una parola")];
-const elementSecondoInput = [prompt("inserisci una parola")];
+const elementPrimoInput = prompt("inserisci una parola");
+const elementSecondoInput = prompt("inserisci una parola");
 
 console.log({ elementPrimoInput });
 console.log({ elementSecondoInput });
 
 if (elementPrimoInput.length > elementSecondoInput.length) {
-    console.log(elementPrimoInput);
     console.log(elementSecondoInput);
+    console.log(elementPrimoInput);
 }
 else if (elementPrimoInput.length < elementSecondoInput.length) {
-    console.log(elementSecondoInput);
     console.log(elementPrimoInput);
-}
-else{
-    console.log("Le parole hanno la stessa lugnhezza")
+    console.log(elementSecondoInput);
 }
 
+else{
+    console.log("Le due parole hanno la stessa lugnehzza")
+}
