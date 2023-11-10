@@ -1,5 +1,5 @@
-const elementPrimoInput = prompt("inserisci una parola");
-const elementSecondoInput = prompt("inserisci una parola");
+const elementPrimoInput = String(prompt("inserisci una parola"));
+const elementSecondoInput = String(prompt("inserisci una parola"));
 
 console.log({ elementPrimoInput });
 console.log({ elementSecondoInput });
