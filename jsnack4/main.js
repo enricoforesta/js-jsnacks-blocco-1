@@ -2,7 +2,9 @@
 Continua a chiedere i numeri all’utente e a inserirli nell’array fino a quando la somma degli elementi è inferiore di 50. */
 "use strict"
 
-const numeri = [];
+// while
+
+/* const numeri = [];
 
 let  somma = 0
 
@@ -14,4 +16,28 @@ while(somma < 50 ){
     console.log({somma});
 }
 
-console.log({numeri});
+console.log({numeri}); */
+
+/* Do while 
+
+
+
+const numeri = [];
+
+let somma = 0
+
+do {
+    const numeroInserito = Number(prompt("inserisci un numero"));
+    console.log({ numeroInserito });
+    numeri.push(numeroInserito);
+    somma = somma + numeroInserito;
+    console.log({somma});
+}while(somma < 50){
+   break;
+}
+
+console.log({numeri}); */
+
+
+// for
+
